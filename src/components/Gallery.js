@@ -16,8 +16,8 @@ const Gallery = () => {
   const images = [
     { src: img1, alt: "Seamless Extension Install" },
     { src: img2, alt: "Subtle Highlight" },
-    { src: img3, alt: "Balayage" },
-    { src: img4, alt: "Honey Blonde" },
+    { src: img3, alt: "Honey Blonde" },
+    { src: img4, alt: "Balayage" },
     { src: img5, alt: "Power Blonde Highlight" },
     { src: img6, alt: "Rich Brunette" },
     { src: img7, alt: "Deep Brunette" },
