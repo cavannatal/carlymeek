@@ -14,14 +14,14 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { src: img1, alt: "Elegant updo" },
-    { src: img2, alt: "Modern bob cut" },
-    { src: img3, alt: "Natural curls styling" },
-    { src: img4, alt: "Balayage highlight technique" },
-    { src: img5, alt: "Vibrant hair color" },
-    { src: img6, alt: "Sleek straight style" },
-    { src: img7, alt: "Textured pixie cut" },
-    { src: img8, alt: "Beachy waves" },
+    { src: img1, alt: "Seamless Extension Install" },
+    { src: img2, alt: "Subtle Highlight" },
+    { src: img3, alt: "Balayage" },
+    { src: img4, alt: "Honey Blonde" },
+    { src: img5, alt: "Power Blonde Highlight" },
+    { src: img6, alt: "Rich Brunette" },
+    { src: img7, alt: "Deep Brunette" },
+    { src: img8, alt: "Low Maintenance Blonde" },
   ];
 
   return (
@@ -42,7 +42,7 @@ const Gallery = () => {
               className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110" 
             />
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300 flex items-center justify-center">
-              <p className="text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <p className="text-white text-xl text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 {img.alt}
               </p>
             </div>
