@@ -1,6 +1,6 @@
 // Banner.js
 import React from 'react';
-import Salon from '../images/salon-banner.jpg'
+import Salon from '../images/salon-banner.webp'
 
 const Banner = () => (
   <div className="relative h-screen">

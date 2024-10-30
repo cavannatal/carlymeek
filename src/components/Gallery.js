@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
-import img1 from '../galleryimages/haley.jpg'
-import img2 from '../galleryimages/image1.jpg'
-import img3 from '../galleryimages/image2.JPG'
-import img4 from '../galleryimages/image3.JPG'
-import img5 from '../galleryimages/image4.jpg'
-import img6 from '../galleryimages/image5.jpg'
-import img7 from '../galleryimages/image6.JPG'
-import img8 from '../galleryimages/image7.jpg'
+import img1 from '../galleryimages/haley.webp'
+import img2 from '../galleryimages/image1.webp'
+import img3 from '../galleryimages/image2.webp'
+import img4 from '../galleryimages/image3.webp'
+import img5 from '../galleryimages/image4.webp'
+import img6 from '../galleryimages/image5.webp'
+import img7 from '../galleryimages/image6.webp'
+import img8 from '../galleryimages/image7.webp'
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
